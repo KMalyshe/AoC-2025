@@ -1,10 +1,10 @@
 with open('day3input.txt', 'r') as file:
     input = file.readlines()
 
-def calc(inputArray, digitcount):
+def calc(inputarray, digitcount):
     count = 0
 
-    for bank in inputArray:
+    for bank in inputarray:
         
         bank = bank.strip()
         digits = []
